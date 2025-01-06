@@ -1,0 +1,39 @@
+Starting concurrent benchmarks... will run a total of 5 times.
+Launching in background: stress-ng --cpu 1 --cpu-method matrixprod --timeout 10s
+Launching in background: stress-ng --cpu 1 --cpu-method fft --timeout 10s
+Launching in background: stress-ng --vm 1 --vm-bytes 512M --vm-method all --timeout 10s
+Launching in background: stress-ng --hdd 1 --hdd-bytes 1G --timeout 10s
+Launching in background: stress-ng --fork 1 --timeout 10s
+All concurrent benchmarks have completed.
+Total time for all tasks (concurrent): 15.254362817 seconds
+Launching in background: stress-ng --cpu 1 --cpu-method matrixprod --timeout 10s
+Launching in background: stress-ng --cpu 1 --cpu-method fft --timeout 10s
+Launching in background: stress-ng --vm 1 --vm-bytes 512M --vm-method all --timeout 10s
+Launching in background: stress-ng --hdd 1 --hdd-bytes 1G --timeout 10s
+Launching in background: stress-ng --fork 1 --timeout 10s
+All concurrent benchmarks have completed.
+Total time for all tasks (concurrent): 15.716668010 seconds
+Launching in background: stress-ng --cpu 1 --cpu-method matrixprod --timeout 10s
+Launching in background: stress-ng --cpu 1 --cpu-method fft --timeout 10s
+Launching in background: stress-ng --vm 1 --vm-bytes 512M --vm-method all --timeout 10s
+Launching in background: stress-ng --hdd 1 --hdd-bytes 1G --timeout 10s
+Launching in background: stress-ng --fork 1 --timeout 10s
+All concurrent benchmarks have completed.
+Total time for all tasks (concurrent): 18.068470042 seconds
+Launching in background: stress-ng --cpu 1 --cpu-method matrixprod --timeout 10s
+Launching in background: stress-ng --cpu 1 --cpu-method fft --timeout 10s
+Launching in background: stress-ng --vm 1 --vm-bytes 512M --vm-method all --timeout 10s
+Launching in background: stress-ng --hdd 1 --hdd-bytes 1G --timeout 10s
+Launching in background: stress-ng --fork 1 --timeout 10s
+All concurrent benchmarks have completed.
+Total time for all tasks (concurrent): 17.236326585 seconds
+Launching in background: stress-ng --cpu 1 --cpu-method matrixprod --timeout 10s
+Launching in background: stress-ng --cpu 1 --cpu-method fft --timeout 10s
+Launching in background: stress-ng --vm 1 --vm-bytes 512M --vm-method all --timeout 10s
+Launching in background: stress-ng --hdd 1 --hdd-bytes 1G --timeout 10s
+Launching in background: stress-ng --fork 1 --timeout 10s
+All concurrent benchmarks have completed.
+Total time for all tasks (concurrent): 16.838153672 seconds
+---------------------------------------
+All 5 runs have completed.
+Average total time for all tasks (concurrent) over 5 runs: 16.62279622520000000000 seconds
